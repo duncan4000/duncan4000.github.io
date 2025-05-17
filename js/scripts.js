@@ -213,7 +213,7 @@ $(document).ready(function () {
 
         $.post('https://script.google.com/macros/s/AKfycbwVTQHwZHXh6fe4XtUkEEsZ3f0UsiS23kVRfeeoHn-VOb2K2qkwGzcB3wu-YYoVND9v/exec', data)
             .done(function (data) {
-                console.log(data);
+                console.log("Response from server:", data);
                 if (data.result === "error") {
                     $('#alert-wrapper').html(alert_markup('danger', data.message));
                 } else {
@@ -222,7 +222,7 @@ $(document).ready(function () {
                 }
             })
             .fail(function (data) {
-                console.log(data);
+                console.log("Response from server:", data);
                 $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
             });
 
