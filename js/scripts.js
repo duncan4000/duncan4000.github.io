@@ -229,7 +229,8 @@ $(document).ready(function () {
                 console.log(data);
                 $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
             });
-        
+
+        $('#alert-wrapper').html(alert_markup('info', '<strong>DONE</strong>'));
     });
 
 });
