@@ -225,7 +225,12 @@
     .events .rightcol {
         padding: 0 20px;
     }
-    
+    .accom {
+        padding-top: 40px;
+    }
+    .transport {
+        padding-top: 40px;
+    }
     #eng-pics .img-wrap {
         border-radius: 0;
     }
@@ -242,6 +247,8 @@
     .rsvp {
         padding-top: 40px;
     }
+
+    
 
     footer .social-share {
         display: none;
