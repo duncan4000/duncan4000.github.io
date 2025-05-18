@@ -42,12 +42,13 @@
 
         // load js files from CDN if local node_modules fail
         function loadJsFromCDN(js) {
-            if (js === 'waypoints.js') {
-                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
-            } else if (js === 'jquery.js') {
-                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
-            }
-        }
+    if (js === 'waypoints.js') {
+        document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"><\/script>');
+    } else if (js === 'jquery.js') {
+        document.write('<script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"><\/script>');
+    }
+}
+
     </script>
 
     <link rel="stylesheet" href="css/normalize.min.css">
@@ -58,7 +59,8 @@
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
 </head>
 <body id="top">
 <!--[if lt IE 8]>
@@ -451,6 +453,11 @@
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDuTxQ26s7CWw5eT2EdOG4fR2v7y9clv9K/p54c2xR2vjUQMZT" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oPftN7m9kaxgI/0A3xvJ6qgZQ8bP0+QaZJ8MyRPeYvg=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B0UglyR+LyBO13q+GFGLq8aW6n7zW6Wy0sPvU6u5Pn9HyBj7JvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
 
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVs5BS_AySIgMBGz-B30-bNl4A5B6C1ao&callback=initMap"></script>
