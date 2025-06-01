@@ -350,62 +350,73 @@
             <div class="col-md-12 text-center">
                 <h3>What are you waiting for?</h3>
                 <p>We would greatly appreciate if you could RSVP before 1st of December '25</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
+                <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                                </div>
+                                <input type="email" name="email" class="form-control" placeholder="Your email" required>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Name of guest(s)"
-                                                                 required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="10"
-                                                                  placeholder="Number of Guests"
-                                                                  required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-cutlery fa-fw"></i><input name="diet" class=""
-                                                                 placeholder="Dietary Requirements?"
-                                                                 >
-                            </div>
-                        </div>
-                    </div>   
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-comments fa-fw"></i><input name="comments" class=""
-                                                                 placeholder="Comments, Questions?"
-                                                                 >
+    
+                        <div class="form-group col-md-6">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                </div>
+                                <input type="text" name="name" class="form-control" placeholder="Name of guest(s)" required>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-users"></i></span>
+                                </div>
+                                <input type="number" name="extras" class="form-control" min="0" max="10" placeholder="Number of Guests" required>
+                            </div>
+                        </div>
+    
+                        <div class="form-group col-md-6">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-cutlery"></i></span>
+                                </div>
+                                <input type="text" name="diet" class="form-control" placeholder="Dietary Requirements?">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-comments"></i></span>
+                                </div>
+                                <input type="text" name="comments" class="form-control" placeholder="Comments, Questions?">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="form-row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+    
+                    <button class="btn btn-fill rsvp-btn" type="submit">
+                        Yes, that's me!
                     </button>
                 </form>
             </div>
         </div>
     </div>
+    
+
+
 </section>
 
 <section id="contactus" class="section-padding">
