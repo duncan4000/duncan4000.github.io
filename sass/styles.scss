@@ -301,15 +301,14 @@ Navigation
 }
 
 
-nav.transparent-navbar.fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* fade-in background */
+nav.transparent-navbar {
+  background-color: transparent;
   transition: background-color 0.3s ease;
-  z-index: 9999;
 }
 
+nav.transparent-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 section.navigation {

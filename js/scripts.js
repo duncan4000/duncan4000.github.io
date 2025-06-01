@@ -100,11 +100,11 @@ $(document).ready(function () {
     $(function () {
         $(window).on('scroll', function() {
             if ($(this).scrollTop() >= 20) {
-                $('section.transparent-navbar').addClass('fixed');
+              $('nav.transparent-navbar').addClass('scrolled');
             } else {
-                $('section.transparent-navbar').removeClass('fixed');
+              $('nav.transparent-navbar').removeClass('scrolled');
             }
-        });
+          });
 
     });
 
