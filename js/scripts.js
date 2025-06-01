@@ -102,10 +102,8 @@ $(document).ready(function () {
           console.log('Scroll position:', $(this).scrollTop());
           if ($(this).scrollTop() >= 20) {
             $('nav.transparent-navbar').addClass('scrolled');
-            console.log('Added .scrolled');
           } else {
             $('nav.transparent-navbar').removeClass('scrolled');
-            console.log('Removed .scrolled');
           }
         });
       });
