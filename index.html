@@ -70,61 +70,47 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 <section class="hero">
-    
-    <section class="navigation">
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark" style="background-color: transparent;">
-            <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: transparent;">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" style="height: 60px;">
+          </a>
       
-              <!-- Logo -->
-              <a class="navbar-brand" href="#">
-                <img src="img/logo.png" style="height: 60px;" alt="Logo">
-              </a>
+          <!-- Burger icon -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
       
-              <!-- Hamburger / Toggle Button for mobile -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Close button for mobile view -->
+            <button class="close d-md-none ml-auto p-3" data-toggle="collapse" data-target="#navbarNav" aria-label="Close">
+              <span aria-hidden="true" style="font-size: 2rem; color: white;">&times;</span>
+            </button>
       
-              <!-- Collapsible Menu -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <button class="close d-md-none ml-auto p-3" data-toggle="collapse" data-target="#navbarNav" aria-label="Close">
-                        <span aria-hidden="true" style="font-size: 2rem; color: white;">&times;</span>
-                    </button>
-                    
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
-                        <!-- other nav links -->
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link btn btn-outline-light" href="#rsvp">RSVP</a></li>
-                    </ul>
-                    </div>
-                  
-                <!-- Primary nav items -->
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#accom">Accommodation</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#transport">Transport</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#kids">Kids?</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#map">Venue</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#events">Timeline</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#eng-pics">Photos</a></li>
-                </ul>
+            <!-- Main nav -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
+              <li class="nav-item"><a class="nav-link" href="#accom">Accommodation</a></li>
+              <li class="nav-item"><a class="nav-link" href="#transport">Transport</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kids">Kids?</a></li>
+              <li class="nav-item"><a class="nav-link" href="#map">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="#events">Timeline</a></li>
+              <li class="nav-item"><a class="nav-link" href="#eng-pics">Photos</a></li>
+            </ul>
       
-                <!-- RSVP button aligned to the right -->
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a href="#rsvp" class="btn btn-white btn-small">RSVP</a>
-                  </li>
-                </ul>
+            <!-- RSVP button -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-light" href="#rsvp">RSVP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       
-              </div>
-            </div>
-          </nav>
-        </header>
-      </section>
       
 
       
@@ -551,6 +537,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
 
@@ -559,8 +546,11 @@
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
 <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
 <script src="js/scripts.js"></script>
+
+
+
 
 
 
