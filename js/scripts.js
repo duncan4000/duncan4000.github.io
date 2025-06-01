@@ -79,10 +79,20 @@ $(document).ready(function () {
 
         });
     
+        //$('.header-nav li a').on('click', function () {
+         //   $('.nav-toggle').toggleClass('active');
+        //    $('.header-nav').toggleClass('open');
+        //});
+
+        // Close menu when a nav link is clicked (only if mobile menu is open)
         $('.header-nav li a').on('click', function () {
-            $('.nav-toggle').toggleClass('active');
-            $('.header-nav').toggleClass('open');
+            if ($('.nav-toggle').is(':visible')) {
+                $('.nav-toggle').removeClass('active');
+                $('.header-nav').removeClass('open');
+            }
         });
+
+
     });
     
     /***************** Header BG Scroll ******************/
