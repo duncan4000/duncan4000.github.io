@@ -73,39 +73,47 @@
     
     <section class="navigation">
         <header>
-          <div class="container">
-            <div class="d-flex align-items-center justify-content-between py-2">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
       
-              <!-- Left group: Logo + Nav -->
-              <div class="d-flex align-items-center">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" style="height: 60px;" alt="Logo">
+              </a>
       
-                <!-- Logo -->
-                <div class="logo mr-0">
-                  <a href="#"><img src="img/logo.png" style="height: 60px;" alt="Logo"></a>
-                </div>
+              <!-- Hamburger / Toggle Button for mobile -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
       
-                <!-- Nav links: tightly grouped and evenly spaced -->
-                <ul class="primary-nav d-flex list-unstyled mb-0">
-                  <li class="px-0"><a href="#instagram">Instagram</a></li>
-                  <li class="px-0"><a href="#accom">Accommodation</a></li>
-                  <li class="px-0"><a href="#transport">Transport</a></li>
-                  <li class="px-0"><a href="#kids">Kids?</a></li>
-                  <li class="px-0"><a href="#map" class="login">Venue</a></li>
-                  <li class="px-0"><a href="#events">Timeline</a></li>
-                  <li class="px-0"><a href="#eng-pics">Photos</a></li>
+              <!-- Collapsible Menu -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+      
+                <!-- Primary nav items -->
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#accom">Accommodation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#transport">Transport</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#kids">Kids?</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#map">Venue</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#events">Timeline</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#eng-pics">Photos</a></li>
+                </ul>
+      
+                <!-- RSVP button aligned to the right -->
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#rsvp" class="btn btn-white btn-small">RSVP</a>
+                  </li>
                 </ul>
       
               </div>
-      
-              <!-- RSVP button with gap -->
-              <div class="ml-6">
-                <a href="#rsvp" class="btn-white btn-small" style="background-color: #de3f2e; color: white; font-weight: bold;">RSVP</a>
-              </div>
-      
             </div>
-          </div>
+          </nav>
         </header>
       </section>
+      
 
       
     <div class="container">
