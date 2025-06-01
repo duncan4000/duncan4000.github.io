@@ -375,13 +375,9 @@ header {
       }
     }
   }
-  
+
   .primary-nav,
   .member-actions {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
     align-items: center; /* vertically center items in the row */
   }
 
