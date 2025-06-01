@@ -176,7 +176,12 @@ Waypoinsts
 /* ==========================================================================
 Navigation
 ========================================================================== */
+.header-nav {
+  display: inline-block;
+}
+
 .header-nav.open {
+  display: block;
   visibility: visible;
   opacity: 0.9;
   -webkit-transition: opacity 0.5s;
@@ -353,9 +358,7 @@ header {
       }
     }
   }
-  .header-nav {
-    display: inline-block;
-  }
+
   .member-actions {
     position: absolute;
     right: 0;
