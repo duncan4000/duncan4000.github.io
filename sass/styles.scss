@@ -833,13 +833,26 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-cutlery, i.fa-comments, i.fa-user, i.fa-users, i.fa-envelope, i.fa-key {
-        font-size: 14px;
+
+      .form-input-group i {
         position: absolute;
         top: 50%;
+        left: 20px;
         transform: translateY(-50%);
-        margin-left: 20px;
+        font-size: 14px;
+        width: 20px;  /* fixed width */
+        text-align: center;
+        color: #yourAccentColor;
+        pointer-events: none; /* allow clicks through icon */
       }
+
+      //i.fa-cutlery, i.fa-comments, i.fa-user, i.fa-users, i.fa-envelope, i.fa-key {
+       // font-size: 14px;
+        //position: absolute;
+       // top: 50%;
+       // transform: translateY(-50%);
+       // margin-left: 20px;
+      //}
       input {
         padding-left: 68px;
         width: 100%;
