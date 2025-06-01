@@ -364,7 +364,8 @@ var MD5 = function (string) {
     };
 
     function Utf8Encode(string) {
-        string = string.replace(/\r\n/g, "\n");
+        if (typeof string !== 'string') return '';
+        string = string.replace(/\r\n/g,"\n");
         var utftext = "";
 
         for (var n = 0; n < string.length; n++) {
