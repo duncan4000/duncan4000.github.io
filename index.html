@@ -73,7 +73,7 @@
     
     <section class="navigation">
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #333;">
+            <nav class="navbar navbar-expand-md navbar-dark" style="background-color: transparent;">
             <div class="container">
       
               <!-- Logo -->
@@ -88,8 +88,20 @@
               </button>
       
               <!-- Collapsible Menu -->
-              <div class="collapse navbar-collapse" id="navbarNav">
-      
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <button class="close d-md-none ml-auto p-3" data-toggle="collapse" data-target="#navbarNav" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 2rem; color: white;">&times;</span>
+                    </button>
+                    
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
+                        <!-- other nav links -->
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link btn btn-outline-light" href="#rsvp">RSVP</a></li>
+                    </ul>
+                    </div>
+                  
                 <!-- Primary nav items -->
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
