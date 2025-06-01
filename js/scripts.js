@@ -72,11 +72,12 @@ $(document).ready(function () {
 
     /* When user clicks the Icon */
     $(document).ready(function () {
-        $('.nav-toggle').on('touchstart click', function (event) {
+        $('.nav-toggle').on('click', function (event) {
+            event.preventDefault();
             $(this).toggleClass('active');
             $('.header-nav').toggleClass('open');
-            event.preventDefault();
-        });
+          });
+          
     
         $('.header-nav li a').on('click', function () {
             $('.nav-toggle').toggleClass('active');
