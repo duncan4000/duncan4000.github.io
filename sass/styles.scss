@@ -252,6 +252,32 @@ Navigation
   transition: all 300ms ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .navicon {
+    visibility: visible;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-nav.open {
+    display: block;
+  }
+
+  header {
+    width: 100%;
+    padding: 20px;
+  }
+
+  ul.primary-nav li,
+  ul.member-actions li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
 /* ==========================================================================
 Hero
 ========================================================================== */
