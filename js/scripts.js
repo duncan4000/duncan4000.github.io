@@ -72,7 +72,7 @@ $(document).ready(function () {
 
     /* When user clicks the Icon */
     $(document).ready(function () {
-        $('.nav-toggle').on('touchstart click', function (event) {
+        $('.nav-toggle').on('click touchstart', function (event) {
             event.preventDefault(); 
             $(this).toggleClass('active');
             $('.header-nav').toggleClass('open');
