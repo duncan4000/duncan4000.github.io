@@ -2,6 +2,11 @@ https://github.com/rampatra/wedding-website/
 
 https://docs.google.com/spreadsheets/d/1GJsLEeiTJf1KiH-JcYjJMwNiV0u6A7bOYXVmIvFZCv0/edit?gid=0#gid=0
 
+## todo
+
+instagram icon not centered and needs to be ours
+logo at top too small
+hannah heart duncan, not centrered. 
 
 
 # Wedding Website
