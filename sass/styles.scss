@@ -9,6 +9,39 @@
 @import "partials/_colors";
 @import "partials/_layout";
 
+// Colours partial
+
+// Text colours
+$txt-primary: rgba(28, 46, 67, 0.75);
+// body font
+$txt-secondary: #2f3239;
+// heading font
+$txt-light: #fff;
+// header/hero
+$txt-accent: #ACB1B4;
+$form-placeholder: #BCC1C3;
+// form placeholder text
+// Global colours
+$accent-color: #23639b;
+// global accent colour
+$accent-color-hover: #44398c;
+// global accent colour hover
+$white-color: #fff;
+$black-color: #000;
+// Typography colours
+$h2-color: #3D4351;
+$h3-color: #3D4351;
+$h5-color: #3D4351;
+// Layout colours
+$section-light: #fff;
+$section-dark: #f8f9fd;
+$to-top-bg: #495061;
+$footer-primary: #3D4351;
+$footer-secondary: #373D4A;
+// Keylines
+$keyline-color: #E6E9EA;
+$footer-keyline-color: #4E566C;
+
 /* ==========================================================================
 Global Styles
 ========================================================================== */
